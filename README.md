@@ -36,11 +36,3 @@ pnpm run build
 ```bash
 pnpm run preview
 ```
-
-## API Mocking with JSON Server (localhost:3001)
-
-### Start development server
-
-```bash
-pnpm run dev:api
-```

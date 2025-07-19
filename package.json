@@ -4,10 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "dev:api": "json-server --watch json.db --port 3001",
+    "dev": "./start-dev.sh",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "./start-preview.sh"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.6",
